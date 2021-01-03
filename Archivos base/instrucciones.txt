@@ -1,0 +1,23 @@
+1. Crea una base de datos mediante la herramienta phpMyAdmin en la que se pueda almacenar usuarios con sus contraseñas y eventos de la agenda asociados a cada usuario. Cada evento comprende un id, título, fecha de inicio, hora de inicio, fecha de finalización, hora de finalización (los últimos 3 pueden ser nulos), y un campo booleano que indique si el evento es de día completo o no. Para cada usuario la base de datos debe almacenar el correo electrónico que funcionará como el nombre de usuario único ante el sistema, el nombre completo, su contraseña, y su fecha de nacimiento.
+
+2. Crea 3 usuarios en la base de datos desde el servidor ejecutando un script de PHP, las contraseñas deben almacenarse encriptadas.
+
+3. Valida el ingreso al sistema al iniciar sesión, comparando los datos ingresados en el formulario con los almacenados en la base de datos.
+
+4. Al iniciar una sesión exitosamente, el sistema debe cargar todos los eventos asociados al usuario en la sesión desde la base de datos y mostrarlos en el calendario. La librería usada para el calendario es FullCalendar. Puedes encontrar su documentación, si lo consideras necesario, en el siguiente enlace: fullcalendar.io
+
+5.Al diligenciar el formulario de la derecha, se debe crear un nuevo evento en el calendario y debe ser almacenado en la base de datos.
+
+6. Al arrastrar un evento al ícono de la basura en la parte derecha de la página, éste debe ser eliminado del calendario y su registro debe eliminarse de la base de datos.
+
+7. Al arrastrar un evento a otro día del calendario, éste debe ser actualizado en la base de datos a las nuevas fechas de inicio y final según su nueva posición.
+
+--- Entrega
+En una carpeta guarda tu proyecto y todos los recursos que consideres necesarios para su funcionamiento. Demás, guarda un archivo github_url.txt que contenga la URL de tu proyecto versionado en el repositorio. Recuerda que haciendo uso de Git Hub podrás crear tu portafolio de aplicaciones web.
+Utiliza la siguiente estructura para nombrar la carpeta Zip que entregarás pues nos permitirá identificarte: NombreDelCurso_PrimerNombre_PrimerApellido.zip
+Para subir el Zip al curso:
+Accede a la página Evaluación final.
+Haz clic en Añadir envío.
+Agrega una descripción en la sección Texto en línea y adjunta la carpeta comprimida en la sección Envíos de archivo.
+Haz clic en Guardar cambios .
+
